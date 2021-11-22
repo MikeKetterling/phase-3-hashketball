@@ -126,4 +126,9 @@ def game_hash
   }
 end
 
-# Write code here
+def num_points_scored
+  # game_hash[:away][:players][:player_name]
+  game_hash.each {|point| binding.pry} 
+  
+
+end
